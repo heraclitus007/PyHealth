@@ -69,6 +69,8 @@ from .shhs import SHHSDataset
 from .sleepedf import SleepEDFDataset
 from .bmd_hs import BMDHSDataset
 from .support2 import Support2Dataset
+from .synthea_csv import SyntheaCSVDataset
+from .synthea_generator import SyntheaGenerator
 from .tcga_prad import TCGAPRADDataset
 from .splitter import (
     sample_balanced,
